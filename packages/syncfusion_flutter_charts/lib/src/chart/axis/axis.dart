@@ -3389,7 +3389,7 @@ class ChartAxisRendererDetails {
     final Rect axisBounds = bounds;
     Offset point;
     final String title = axis.title.text ?? '';
-    final int labelRotation = axis.opposedPosition ? 90 : 270;
+    final int labelRotation = axis.opposedPosition ? 270 : 270;
     const int innerPadding = 10;
     TextStyle style = axis.title.textStyle;
     style = getTextStyle(
